@@ -31,15 +31,7 @@ namespace S2_MyFirstProject.ConsoleProject
             listado.Add(new Persona("88556699", "Raul Ruidiaz", 5255211));
 
             detalleEdad = edad > 17 ? "Es mayor de edad" : "Es menor de edad";
-            //if (edad > 17)
-            //{
-            //    detalleEdad = "Es mayor de edad";
-            //}
-            //else
-            //{
-            //    detalleEdad = "Es menor de edad";
-            //}
-
+           
             foreach (var item in listado)
             {
                 Console.WriteLine(item.dni + " " + item.nombreCompleto + " " + item.telefono);
